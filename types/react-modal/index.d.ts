@@ -11,7 +11,7 @@
 
 import * as React from "react";
 
-export = ReactModal;
+//export = ReactModal;
 export as namespace ReactModal;
 
 declare namespace ReactModal {
@@ -95,7 +95,7 @@ declare namespace ReactModal {
     }
 }
 
-declare class ReactModal extends React.Component<ReactModal.Props> {
+export class ReactModal extends React.Component<ReactModal.Props> {
     /* Override base styles for all instances of this component. */
     static defaultStyles: ReactModal.Styles;
     /**
